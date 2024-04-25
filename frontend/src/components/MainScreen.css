@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
+
+.mainback {
+  min-height: 88vh;
+  display: flex;
+  padding: 12px 50px 40px 180px;
+  background-color: rgba(220, 214, 207, 0.644);
+}
+.page {
+  width: 100%;
+  align-items: center;
+}
+.heading {
+  font-size: 50px;
+  /*  font-family: "Work Sans", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Ubuntu", sans-serif;
+  padding: 5px 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}
